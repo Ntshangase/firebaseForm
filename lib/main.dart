@@ -36,10 +36,10 @@ class MyApp extends StatelessWidget {
             )),
         outlinedButtonTheme: OutlinedButtonThemeData(
             style: OutlinedButton.styleFrom(
-                primary: Colors.white, backgroundColor: Colors.indigo)),
+                foregroundColor: Colors.white, backgroundColor: Colors.indigo)),
         textButtonTheme: TextButtonThemeData(
             style: TextButton.styleFrom(
-          primary: Colors.white,
+          foregroundColor: Colors.white,
           backgroundColor: Colors.indigo,
         )),
         scaffoldBackgroundColor: Colors.blue,
